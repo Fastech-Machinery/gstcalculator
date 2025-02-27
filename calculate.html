@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+   <div class="body">
+    <div class="input">
+      <img src="image/logo.png" alt="">
+      <label>Enter Amount</label>
+      <input type="number" id="price" />
+      <label>Enter Tax Percentage</label>
+      <input type="number" id="tax" />
+      <button id="btn">Calculate</button>
+    </div>
+    
+    <div class="other" id="other">
+      <div class="gst">
+        <div>
+          <p>CGST <span id="percentcgst">0%</span> : <span id="cgst"></span></p>
+          <p>SGST <span id="percentsgst">0%</span> : <span id="sgst"></span></p>
+        </div>
+    
+        <div>
+          <p>IGST <span id="percentigst">0%</span> : <span id="igst"></span></p>
+        </div>
+      </div>
+  
+      <div class="machine">
+        <p>Price of Product = <span id="withoutgst"></span></p>
+        <p>Price of Product including GST = <span id="withgst"></span></p>
+      </div>
+    </div>
+
+   </div>
+    <script src="app.js"></script>
+  </body>
+</html>

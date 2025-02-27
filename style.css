@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 100px 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 35px 2px rgb(226, 225, 225);
+    width: 40%;
+}
+
+.input img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  margin-bottom: 30px;
+    
+}
+
+.input label{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.input input{
+    font-size: 18px;
+    background-color: rgb(226, 225, 225);
+    padding: 15px 10px;
+    border-radius: 5px;
+    min-width: 400px;
+    margin-bottom: 15px;
+}
+
+.input button{
+    margin-top: 10px;
+    padding: 20px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.input button:active{
+ transform: scale(0.90);
+}
+
+.other{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+    width: 25%;
+    display: none;
+    text-wrap: nowrap;
+}
+
+.gst div{
+    margin-bottom: 20px;
+}
+
+.gst div p, .machine p{
+    padding-top: 10px;
+    font-size: 18px;
+}
